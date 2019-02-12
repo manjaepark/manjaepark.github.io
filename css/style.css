@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 850px;
+  margin: 40px auto;
+  max-width: 90%;
+  line-height: 1.4em
+}
+
+html, body, .hero-container {
+  height: 100%;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  font-size: 300%;
+}
